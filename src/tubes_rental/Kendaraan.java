@@ -18,7 +18,11 @@ public class Kendaraan {
         
     //}
     
-    public void setId(int id){
+    public void setIdPemilikKendaraan(int idPemilikKendaraan){
+        this.idPemilikKendaraan = idPemilikKendaraan;
+    }
+
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -48,6 +52,10 @@ public class Kendaraan {
     
     public void setHarga(int harga) {
         this.harga = harga;
+    }
+
+    public int getIdPemilikKendaraan() {
+        return idPemilikKendaraan;
     }
 
     public int getId() {
