@@ -9,11 +9,6 @@ package tubes_rental;
  *
  * @author asus
  */
-public class Pengguna {
-
-    private String nama;
-    private String alamat;
-    private String username;
-    private String password;
+public interface InterfacePelanggan {
     
 }

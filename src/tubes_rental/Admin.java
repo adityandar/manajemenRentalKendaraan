@@ -9,11 +9,17 @@ package tubes_rental;
  *
  * @author asus
  */
-public class Pengguna {
+public class Admin {
+    private int idAdmin;
 
-    private String nama;
-    private String alamat;
-    private String username;
-    private String password;
+    public int getIdAdmin() {
+        return this.idAdmin;
+    }
+
+    public void setIdAdmin(int idAdmin) {
+        this.idAdmin = idAdmin;
+    }
+    
+    
     
 }
