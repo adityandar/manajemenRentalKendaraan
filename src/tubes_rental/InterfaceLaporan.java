@@ -10,5 +10,5 @@ package tubes_rental;
  * @author asus
  */
 public interface InterfaceLaporan {
-    
+    public void lihatLaporan();
 }

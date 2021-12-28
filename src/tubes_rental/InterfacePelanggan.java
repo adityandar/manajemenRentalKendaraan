@@ -10,5 +10,6 @@ package tubes_rental;
  * @author asus
  */
 public interface InterfacePelanggan {
-    
+    public void tambahPelanggan();
+    public void hapusPelanggan();
 }

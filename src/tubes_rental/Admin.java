@@ -9,17 +9,35 @@ package tubes_rental;
  *
  * @author asus
  */
-public class Admin {
-    private int idAdmin;
+public class Admin extends Pengguna implements InterfacePelanggan, InterfaceLaporan{
+    private int id;
 
-    public int getIdAdmin() {
-        return this.idAdmin;
-    }
-
-    public void setIdAdmin(int idAdmin) {
-        this.idAdmin = idAdmin;
+    public Admin(int id, String nama, String alamat, String username, String password) {
+        super(nama, alamat, username, password);
+        this.id = id;
     }
     
-    
+    public int getId() {
+        return this.id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public void tambahPelanggan() {
+        
+    }
+
+    @Override
+    public void hapusPelanggan() {
+        
+    }
+
+    @Override
+    public void lihatLaporan() {
+        
+    }
     
 }
