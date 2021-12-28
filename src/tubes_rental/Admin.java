@@ -9,13 +9,17 @@ package tubes_rental;
  *
  * @author asus
  */
-public class Tubes_Rental {
+public class Admin {
+    private int idAdmin;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Hello War");
+    public int getIdAdmin() {
+        return this.idAdmin;
     }
+
+    public void setIdAdmin(int idAdmin) {
+        this.idAdmin = idAdmin;
+    }
+    
+    
+    
 }

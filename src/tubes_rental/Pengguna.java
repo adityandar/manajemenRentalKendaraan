@@ -9,13 +9,11 @@ package tubes_rental;
  *
  * @author asus
  */
-public class Tubes_Rental {
+public class Pengguna {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Hello War");
-    }
+    private String nama;
+    private String alamat;
+    private String username;
+    private String password;
+    
 }
