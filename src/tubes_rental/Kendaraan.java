@@ -14,7 +14,7 @@ public class Kendaraan {
     private String noMesin, noRangka, noPol, merk, warna, kondisi;
     private int harga;
     
-    //Kendaraan (int idKendaraan, String noMesin, String noRangka, String noPol, String merk, String, warna, String kondisi){
+    //Kendaraan (int idPemilikKendaraan, int idKendaraan, String noMesin, String noRangka, String noPol, String merk, String, warna, String kondisi){
         
     //}
     
