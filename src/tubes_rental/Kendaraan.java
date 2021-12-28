@@ -10,7 +10,7 @@ package tubes_rental;
  * @author A S U S
  */
 public class Kendaraan {
-    int idKendaraan;
+    int idKendaraan, idPemilikKendaraan;
     private String noMesin, noRangka, noPol, merk, warna, kondisi;
     private int harga;
     
