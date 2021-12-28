@@ -14,11 +14,19 @@ public class Kendaraan {
     private String noMesin, noRangka, noPol, merk, warna, kondisi;
     private int harga;
     
-    //Kendaraan (int idPemilikKendaraan, int id, String noMesin, String noRangka, String noPol, String merk, String, warna, String kondisi){
-        
-    //}
-    
-    public void setIdPemilikKendaraan(int idPemilikKendaraan){
+    public Kendaraan(int id, int idPemilikKendaraan, String noMesin, String noRangka, String noPol, String merk, String warna, String kondisi, int harga){
+        this.id = id;
+        this.idPemilikKendaraan = idPemilikKendaraan;
+        this.noMesin = noMesin;
+        this.noRangka = noRangka;
+        this.noPol = noPol;
+        this.merk = merk;
+        this.warna = warna;
+        this.kondisi = kondisi;
+        this.harga = harga;
+    }
+
+    public void setIdPemilikKendaraan(int idPemilikKendaraan) {
         this.idPemilikKendaraan = idPemilikKendaraan;
     }
 

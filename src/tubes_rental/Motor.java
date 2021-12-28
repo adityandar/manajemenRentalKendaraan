@@ -9,13 +9,15 @@ package tubes_rental;
  *
  * @author A S U S
  */
-public class Motor {
+public class Motor extends Kendaraan {
     int jumlahKursi;
     private String jenisMotor;
-    
-    //Motor (int idKendaraan, String noMesin, String noRangka, String noPol, String merk, String, warna, String kondisi){
-        
-    //}
+
+    public Motor(int jumlahKursi, String jenisMotor, int id, int idPemilikKendaraan, String noMesin, String noRangka, String noPol, String merk, String warna, String kondisi, int harga) {
+        super(id, idPemilikKendaraan, noMesin, noRangka, noPol, merk, warna, kondisi, harga);
+        this.jumlahKursi = jumlahKursi;
+        this.jenisMotor = jenisMotor;
+    }
 
     public void setJumlahKursi(int jumlahKursi) {
         this.jumlahKursi = jumlahKursi;
