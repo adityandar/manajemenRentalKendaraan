@@ -9,11 +9,19 @@ package tubes_rental;
  *
  * @author 529
  */
-public class PemilikKendaraan {
+public class PemilikKendaraan extends Pengguna{
     
     private int id;
     private String NIK;
     private String noHP;
+
+    public PemilikKendaraan(int id, String NIK, String noHP, String nama, String alamat, String username, String password) {
+        super(nama, alamat, username, password);
+        this.id = id;
+        this.NIK = NIK;
+        this.noHP = noHP;
+    }
+    
 
     public int getId() {
         return id;
@@ -36,12 +44,6 @@ public class PemilikKendaraan {
     }
 
     public void setNoHP(String noHP) {
-        this.noHP = noHP;
-    }
-
-    public PemilikKendaraan(int id, String NIK, String noHP) {
-        this.id = id;
-        this.NIK = NIK;
         this.noHP = noHP;
     }
 }
