@@ -10,16 +10,16 @@ package tubes_rental;
  * @author A S U S
  */
 public class Kendaraan {
-    int idKendaraan, idPemilikKendaraan;
+    int id, idPemilikKendaraan;
     private String noMesin, noRangka, noPol, merk, warna, kondisi;
     private int harga;
     
-    //Kendaraan (int idPemilikKendaraan, int idKendaraan, String noMesin, String noRangka, String noPol, String merk, String, warna, String kondisi){
+    //Kendaraan (int idPemilikKendaraan, int id, String noMesin, String noRangka, String noPol, String merk, String, warna, String kondisi){
         
     //}
     
-    public void setIdKendaraan(int idKendaraan){
-        this.idKendaraan = idKendaraan;
+    public void setId(int id){
+        this.id = id;
     }
 
     public void setNoMesin(String noMesin) {
@@ -50,8 +50,8 @@ public class Kendaraan {
         this.harga = harga;
     }
 
-    public int getIdKendaraan() {
-        return idKendaraan;
+    public int getId() {
+        return id;
     }
 
     public String getNoMesin() {
