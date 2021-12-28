@@ -10,5 +10,26 @@ package tubes_rental;
  * @author A S U S
  */
 public class Motor {
+    int jumlahKursi;
+    private String jenisMotor;
     
+    //Motor (int idKendaraan, String noMesin, String noRangka, String noPol, String merk, String, warna, String kondisi){
+        
+    //}
+
+    public void setJumlahKursi(int jumlahKursi) {
+        this.jumlahKursi = jumlahKursi;
+    }
+
+    public void setJenisMotor(String jenisMotor) {
+        this.jenisMotor = jenisMotor;
+    }
+
+    public int getJumlahKursi() {
+        return jumlahKursi;
+    }
+
+    public String getJenisMotor() {
+        return jenisMotor;
+    }
 }
