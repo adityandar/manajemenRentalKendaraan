@@ -3,7 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tubes_rental;
+package Model;
+
+import tubes_rental.InterfaceLaporan;
+import tubes_rental.InterfacePelanggan;
 
 /**
  *

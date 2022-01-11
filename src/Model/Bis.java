@@ -3,35 +3,35 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tubes_rental;
+package Model;
 
 /**
  *
  * @author A S U S
  */
-public class Motor extends Kendaraan {
+public class Bis extends Kendaraan {
     int jumlahKursi;
-    private String jenisMotor;
+    private String jenisBis;
 
-    public Motor(int jumlahKursi, String jenisMotor, int id, int idPemilikKendaraan, String noMesin, String noRangka, String noPol, String merk, String warna, String kondisi, int harga) {
+    public Bis(int jumlahKursi, String jenisBis, int id, int idPemilikKendaraan, String noMesin, String noRangka, String noPol, String merk, String warna, String kondisi, int harga) {
         super(id, idPemilikKendaraan, noMesin, noRangka, noPol, merk, warna, kondisi, harga);
         this.jumlahKursi = jumlahKursi;
-        this.jenisMotor = jenisMotor;
+        this.jenisBis = jenisBis;
     }
 
     public void setJumlahKursi(int jumlahKursi) {
         this.jumlahKursi = jumlahKursi;
     }
 
-    public void setJenisMotor(String jenisMotor) {
-        this.jenisMotor = jenisMotor;
+    public void setJenisBis(String jenisBis) {
+        this.jenisBis = jenisBis;
     }
 
     public int getJumlahKursi() {
         return jumlahKursi;
     }
 
-    public String getJenisMotor() {
-        return jenisMotor;
+    public String getJenisBis() {
+        return jenisBis;
     }
 }
