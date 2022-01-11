@@ -3,13 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/View/vHome.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/Controller/cHome.java</file>
             <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/tubes_rental/Tubes_Rental.java</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/tubes_rental/RentOrder.java</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/tubes_rental/PemilikKendaraan.java</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/tubes_rental/Pelanggan.java</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/tubes_rental/Owner.java</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/tubes_rental/Admin.java</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/tubes_rental/Pengguna.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/View/vLogin.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/Controller/cLogin.java</file>
         </group>
     </open-files>
 </project-private>

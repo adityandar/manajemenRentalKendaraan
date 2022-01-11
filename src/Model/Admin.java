@@ -5,9 +5,6 @@
  */
 package Model;
 
-import tubes_rental.InterfaceLaporan;
-import tubes_rental.InterfacePelanggan;
-
 /**
  *
  * @author asus
