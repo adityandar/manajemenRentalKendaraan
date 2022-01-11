@@ -5,6 +5,8 @@
  */
 package tubes_rental;
 
+import View.vRent;
+
 /**
  *
  * @author asus
@@ -17,5 +19,8 @@ public class Tubes_Rental {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hello War");
+        vRent vrent = new vRent();
+        
+        vrent.setVisible(true);
     }
 }
