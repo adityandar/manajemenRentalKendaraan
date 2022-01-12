@@ -3,10 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/View/vHome.java</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/Controller/cHome.java</file>
             <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/tubes_rental/Tubes_Rental.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/View/vHome_Owner.java</file>
             <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/View/vLogin.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/Controller/cHome_Admin.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/Controller/cHome_Owner.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/View/vHome_Admin.java</file>
             <file>file:/C:/Users/asus/Documents/NetBeansProjects/Tubes_Rental/src/Controller/cLogin.java</file>
         </group>
     </open-files>
